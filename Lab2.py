@@ -15,6 +15,7 @@ def get_user_input():
 def calc_avg(common_list):
     avg = sum(common_list)/ len(common_list)
     print (avg)
+    return (avg)
 
 def find_min_max(commno_list): 
     min_max_list = [min(commno_list), max(commno_list)]
@@ -30,6 +31,7 @@ def sort_num(common_list):
 def calc_median(sorted_list):
     median_value = statistics.median(sorted_list)
     print (median_value)
+    return (median_value)
     
 
 def main():
